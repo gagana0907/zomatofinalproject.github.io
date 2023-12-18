@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href="zomatoicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
+        </div>
+        <div class="header-body-section">
+            <nav class="nav">
+                <div class="container container-nav">
+                    <div class="logo-container">
+                        <p>Get the app</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Add Restaurant</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-body-content">
+                <div class="container container-header-body">
+                    <img class="zomatologo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+                    <p class="header-body-section-discover">Discover the best food & drinks in Bangalore</p>
+                        <div class="search-container">
+                            <div class="detectionlocation">
+                                <i class="fa-solid fa-location-dot location-Map"></i>
+                                <input type="text" placeholder="Bangalore">
+                                <i class="fa-solid fa-caret-down caret-down"></i>
+                            </div>
+                            <div class="line">|</div>
+                            <div class="search-items">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Search for restaurant, cuisine, or a dish">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-1">
+    <div class="container container-feature">
+        <div class="features">
+            <div class="feature-image">
+                <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+            </div>
+            <h3>Oder Online</h3>
+            <p>Stay home and oder to your doorstep</p>
+        </div>
+        <div class="features">
+            <div class="feature-image">
+                <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+            </div>
+            <h3>Dining</h3>
+            <p>View the city's favorite dining values</p>
+        </div>
+        <div class="features">
+            <div class="feature-image">
+                <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+            </div>
+            <h3>Nightlife & Clubs</h3>
+            <p>Explore the city's  top nightlife outlets</p>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+                </div>
+
+                <div class="footerlanguagecountry">
+                  
+                    <div class="footeroptionsection">
+                        <div class="flagimage">
+                            <img src="data:image/png;base64,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" alt="">
+                        </div>
+                        <select name="" id="">
+                            <option value="">India</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+
+                    <div class="footeroptionsection">
+                        <div class="iconglobeimage">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <select name="" id="">
+                            <option value="">English</option>
+                            <option value="">Hindi</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-menu-items">
+                    <h3>About Zomato</h3>
+                    <ul>
+                        <li><a href="#">Who we are</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Work with us</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Report Frauds</a></li>
+                        <li><a href="#">Contact Us</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-menu-items">
+                    <h3>Zomaverse</h3>
+                    <ul>
+                        <li><a href="#">Zomato</a></li>
+                        <li><a href="#">Blinkit</a></li>
+                        <li><a href="#">Feeding India</a></li>
+                        <li><a href="#">Hyperpure</a></li>
+                        <li><a href="#">Zomaland</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu-items">
+                    <h3>For Restaurants</h3>
+                    <ul>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Apps for You</a></li>
+                    </ul>
+                    <h3>For Enterprises</h3>
+                    <ul>
+                        <li><a href="#">Zomato For Work</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu-items">
+                    <h3>Learn More</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Setmap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu-items">
+                    <h3>Social Links</h3>
+                    <div class="socialmedialinks">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <a href="" class="downloadapp">
+                        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                    </a>
+                    <a href="" class="downloadapp">
+                        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <hr class="horizontalline">
+            <p style="color: #797979;">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
